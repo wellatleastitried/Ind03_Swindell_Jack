@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A2B5AA62BBF6A870047EE15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B5AA52BBF6A870047EE15 /* AppDelegate.swift */; };
+		3A2B5AA82BBF6A870047EE15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B5AA72BBF6A870047EE15 /* SceneDelegate.swift */; };
+		3A2B5AAA2BBF6A870047EE15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B5AA92BBF6A870047EE15 /* ViewController.swift */; };
+		3A2B5AAD2BBF6A870047EE15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B5AAB2BBF6A870047EE15 /* Main.storyboard */; };
+		3A2B5AAF2BBF6A880047EE15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B5AAE2BBF6A880047EE15 /* Assets.xcassets */; };
+		3A2B5AB22BBF6A880047EE15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2B5AB02BBF6A880047EE15 /* LaunchScreen.storyboard */; };
+		3A2B5ABD2BBF6A890047EE15 /* Ind03_Swindell_JackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B5ABC2BBF6A890047EE15 /* Ind03_Swindell_JackTests.swift */; };
+		3A2B5AC72BBF6A890047EE15 /* Ind03_Swindell_JackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B5AC62BBF6A890047EE15 /* Ind03_Swindell_JackUITests.swift */; };
+		3A2B5AC92BBF6A890047EE15 /* Ind03_Swindell_JackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B5AC82BBF6A890047EE15 /* Ind03_Swindell_JackUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A2B5AB92BBF6A890047EE15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A2B5A9A2BBF6A870047EE15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2B5AA12BBF6A870047EE15;
+			remoteInfo = Ind03_Swindell_Jack;
+		};
+		3A2B5AC32BBF6A890047EE15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A2B5A9A2BBF6A870047EE15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2B5AA12BBF6A870047EE15;
+			remoteInfo = Ind03_Swindell_Jack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A2B5AA22BBF6A870047EE15 /* Ind03_Swindell_Jack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ind03_Swindell_Jack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2B5AA52BBF6A870047EE15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A2B5AA72BBF6A870047EE15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3A2B5AA92BBF6A870047EE15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A2B5AAC2BBF6A870047EE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A2B5AAE2BBF6A880047EE15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A2B5AB12BBF6A880047EE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A2B5AB32BBF6A880047EE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2B5AB82BBF6A890047EE15 /* Ind03_Swindell_JackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ind03_Swindell_JackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2B5ABC2BBF6A890047EE15 /* Ind03_Swindell_JackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind03_Swindell_JackTests.swift; sourceTree = "<group>"; };
+		3A2B5AC22BBF6A890047EE15 /* Ind03_Swindell_JackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ind03_Swindell_JackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2B5AC62BBF6A890047EE15 /* Ind03_Swindell_JackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind03_Swindell_JackUITests.swift; sourceTree = "<group>"; };
+		3A2B5AC82BBF6A890047EE15 /* Ind03_Swindell_JackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind03_Swindell_JackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A2B5A9F2BBF6A870047EE15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2B5AB52BBF6A890047EE15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2B5ABF2BBF6A890047EE15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A2B5A992BBF6A870047EE15 = {
+			isa = PBXGroup;
+			children = (
+				3A2B5AA42BBF6A870047EE15 /* Ind03_Swindell_Jack */,
+				3A2B5ABB2BBF6A890047EE15 /* Ind03_Swindell_JackTests */,
+				3A2B5AC52BBF6A890047EE15 /* Ind03_Swindell_JackUITests */,
+				3A2B5AA32BBF6A870047EE15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A2B5AA32BBF6A870047EE15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B5AA22BBF6A870047EE15 /* Ind03_Swindell_Jack.app */,
+				3A2B5AB82BBF6A890047EE15 /* Ind03_Swindell_JackTests.xctest */,
+				3A2B5AC22BBF6A890047EE15 /* Ind03_Swindell_JackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A2B5AA42BBF6A870047EE15 /* Ind03_Swindell_Jack */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B5AA52BBF6A870047EE15 /* AppDelegate.swift */,
+				3A2B5AA72BBF6A870047EE15 /* SceneDelegate.swift */,
+				3A2B5AA92BBF6A870047EE15 /* ViewController.swift */,
+				3A2B5AAB2BBF6A870047EE15 /* Main.storyboard */,
+				3A2B5AAE2BBF6A880047EE15 /* Assets.xcassets */,
+				3A2B5AB02BBF6A880047EE15 /* LaunchScreen.storyboard */,
+				3A2B5AB32BBF6A880047EE15 /* Info.plist */,
+			);
+			path = Ind03_Swindell_Jack;
+			sourceTree = "<group>";
+		};
+		3A2B5ABB2BBF6A890047EE15 /* Ind03_Swindell_JackTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B5ABC2BBF6A890047EE15 /* Ind03_Swindell_JackTests.swift */,
+			);
+			path = Ind03_Swindell_JackTests;
+			sourceTree = "<group>";
+		};
+		3A2B5AC52BBF6A890047EE15 /* Ind03_Swindell_JackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A2B5AC62BBF6A890047EE15 /* Ind03_Swindell_JackUITests.swift */,
+				3A2B5AC82BBF6A890047EE15 /* Ind03_Swindell_JackUITestsLaunchTests.swift */,
+			);
+			path = Ind03_Swindell_JackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A2B5AA12BBF6A870047EE15 /* Ind03_Swindell_Jack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2B5ACC2BBF6A890047EE15 /* Build configuration list for PBXNativeTarget "Ind03_Swindell_Jack" */;
+			buildPhases = (
+				3A2B5A9E2BBF6A870047EE15 /* Sources */,
+				3A2B5A9F2BBF6A870047EE15 /* Frameworks */,
+				3A2B5AA02BBF6A870047EE15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ind03_Swindell_Jack;
+			productName = Ind03_Swindell_Jack;
+			productReference = 3A2B5AA22BBF6A870047EE15 /* Ind03_Swindell_Jack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A2B5AB72BBF6A890047EE15 /* Ind03_Swindell_JackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2B5ACF2BBF6A890047EE15 /* Build configuration list for PBXNativeTarget "Ind03_Swindell_JackTests" */;
+			buildPhases = (
+				3A2B5AB42BBF6A890047EE15 /* Sources */,
+				3A2B5AB52BBF6A890047EE15 /* Frameworks */,
+				3A2B5AB62BBF6A890047EE15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A2B5ABA2BBF6A890047EE15 /* PBXTargetDependency */,
+			);
+			name = Ind03_Swindell_JackTests;
+			productName = Ind03_Swindell_JackTests;
+			productReference = 3A2B5AB82BBF6A890047EE15 /* Ind03_Swindell_JackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A2B5AC12BBF6A890047EE15 /* Ind03_Swindell_JackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2B5AD22BBF6A890047EE15 /* Build configuration list for PBXNativeTarget "Ind03_Swindell_JackUITests" */;
+			buildPhases = (
+				3A2B5ABE2BBF6A890047EE15 /* Sources */,
+				3A2B5ABF2BBF6A890047EE15 /* Frameworks */,
+				3A2B5AC02BBF6A890047EE15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A2B5AC42BBF6A890047EE15 /* PBXTargetDependency */,
+			);
+			name = Ind03_Swindell_JackUITests;
+			productName = Ind03_Swindell_JackUITests;
+			productReference = 3A2B5AC22BBF6A890047EE15 /* Ind03_Swindell_JackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A2B5A9A2BBF6A870047EE15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					3A2B5AA12BBF6A870047EE15 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					3A2B5AB72BBF6A890047EE15 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3A2B5AA12BBF6A870047EE15;
+					};
+					3A2B5AC12BBF6A890047EE15 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3A2B5AA12BBF6A870047EE15;
+					};
+				};
+			};
+			buildConfigurationList = 3A2B5A9D2BBF6A870047EE15 /* Build configuration list for PBXProject "Ind03_Swindell_Jack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A2B5A992BBF6A870047EE15;
+			productRefGroup = 3A2B5AA32BBF6A870047EE15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A2B5AA12BBF6A870047EE15 /* Ind03_Swindell_Jack */,
+				3A2B5AB72BBF6A890047EE15 /* Ind03_Swindell_JackTests */,
+				3A2B5AC12BBF6A890047EE15 /* Ind03_Swindell_JackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A2B5AA02BBF6A870047EE15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2B5AB22BBF6A880047EE15 /* LaunchScreen.storyboard in Resources */,
+				3A2B5AAF2BBF6A880047EE15 /* Assets.xcassets in Resources */,
+				3A2B5AAD2BBF6A870047EE15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2B5AB62BBF6A890047EE15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2B5AC02BBF6A890047EE15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A2B5A9E2BBF6A870047EE15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2B5AAA2BBF6A870047EE15 /* ViewController.swift in Sources */,
+				3A2B5AA62BBF6A870047EE15 /* AppDelegate.swift in Sources */,
+				3A2B5AA82BBF6A870047EE15 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2B5AB42BBF6A890047EE15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2B5ABD2BBF6A890047EE15 /* Ind03_Swindell_JackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2B5ABE2BBF6A890047EE15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2B5AC92BBF6A890047EE15 /* Ind03_Swindell_JackUITestsLaunchTests.swift in Sources */,
+				3A2B5AC72BBF6A890047EE15 /* Ind03_Swindell_JackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A2B5ABA2BBF6A890047EE15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A2B5AA12BBF6A870047EE15 /* Ind03_Swindell_Jack */;
+			targetProxy = 3A2B5AB92BBF6A890047EE15 /* PBXContainerItemProxy */;
+		};
+		3A2B5AC42BBF6A890047EE15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A2B5AA12BBF6A870047EE15 /* Ind03_Swindell_Jack */;
+			targetProxy = 3A2B5AC32BBF6A890047EE15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A2B5AAB2BBF6A870047EE15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2B5AAC2BBF6A870047EE15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A2B5AB02BBF6A880047EE15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2B5AB12BBF6A880047EE15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A2B5ACA2BBF6A890047EE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A2B5ACB2BBF6A890047EE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A2B5ACD2BBF6A890047EE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ind03_Swindell_Jack/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swindell.Ind03-Swindell-Jack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A2B5ACE2BBF6A890047EE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ind03_Swindell_Jack/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swindell.Ind03-Swindell-Jack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A2B5AD02BBF6A890047EE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swindell.Ind03-Swindell-JackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ind03_Swindell_Jack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ind03_Swindell_Jack";
+			};
+			name = Debug;
+		};
+		3A2B5AD12BBF6A890047EE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swindell.Ind03-Swindell-JackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ind03_Swindell_Jack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ind03_Swindell_Jack";
+			};
+			name = Release;
+		};
+		3A2B5AD32BBF6A890047EE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swindell.Ind03-Swindell-JackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ind03_Swindell_Jack;
+			};
+			name = Debug;
+		};
+		3A2B5AD42BBF6A890047EE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swindell.Ind03-Swindell-JackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ind03_Swindell_Jack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A2B5A9D2BBF6A870047EE15 /* Build configuration list for PBXProject "Ind03_Swindell_Jack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2B5ACA2BBF6A890047EE15 /* Debug */,
+				3A2B5ACB2BBF6A890047EE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2B5ACC2BBF6A890047EE15 /* Build configuration list for PBXNativeTarget "Ind03_Swindell_Jack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2B5ACD2BBF6A890047EE15 /* Debug */,
+				3A2B5ACE2BBF6A890047EE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2B5ACF2BBF6A890047EE15 /* Build configuration list for PBXNativeTarget "Ind03_Swindell_JackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2B5AD02BBF6A890047EE15 /* Debug */,
+				3A2B5AD12BBF6A890047EE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2B5AD22BBF6A890047EE15 /* Build configuration list for PBXNativeTarget "Ind03_Swindell_JackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2B5AD32BBF6A890047EE15 /* Debug */,
+				3A2B5AD42BBF6A890047EE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A2B5A9A2BBF6A870047EE15 /* Project object */;
+}
