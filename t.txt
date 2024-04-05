@@ -43,3 +43,15 @@ Run and test:
 
 Build and run your project on a simulator or device to test the functionality.
 By following these steps, you should be able to create the app using UIKit in Swift with the described features. Remember to refer to the official documentation and resources for detailed implementation of each step.
+
+All 50 state flags were downloaded from the same place
+{StateName}Flag.png
+Wikipedia
+https://en.wikipedia.org/wiki/Flags_of_the_U.S._states_and_territories
+April 4, 2024
+
+All 50 state maps were downloaded from the same place
+{StateName}Map.png
+GISGeography
+https://gisgeography.com/state-outlines-blank-maps-united-states/
+April 4, 2024
