@@ -137,40 +137,21 @@ class TableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-//        if segue.identifier == "CellToInfo" {
-//            if let title = sender as? String {
-//                print("Sender (Title): \(title)")
-//            } else {
-//                print("Sender is not a String")
-//            }
-//        }
-//        let second = segue.destination as! ViewController
-//        if let title = sender as? String {
-//            second.receivedTitle = title
-//            print(second.receivedTitle ?? "Didn't work")
-//        }
         if segue.identifier == "CellToInfo" {
-            if let title = sender as? String {
+            if let indexPath = tableView.indexPathForSelectedRow {
+                let stateName = data[indexPath.row].components(separatedBy: ":")[0]
+                let state = State(name: stateName)
                 if let destinationVC = segue.destination as? ViewController {
-                    destinationVC.receivedTitle = title
+                    destinationVC.stateObject = state
                 }
             }
         }
+        
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        if let cell = tableView.cellForRow(at: indexPath) {
-//            if let title = cell.textLabel?.text {
-//                print("Title: \(title)")
-//                performSegue(withIdentifier: "CellToInfo", sender: title)
-//            } else {
-//                print("Text label is nil")
-//            }
-//        } else {
-//            print("Cell is nil")
-//        }
-        if let cell = tableView.cellForRow(at: indexPath), let title = cell.textLabel?.text {
-            performSegue(withIdentifier: "CellToInfo", sender: title)
-        }
+        let stateName = data[indexPath.row].components(separatedBy: ":")[0]
+        let state = State(name: stateName)
+        performSegue(withIdentifier: "CellToInfo", sender: state)
     }
 
 }

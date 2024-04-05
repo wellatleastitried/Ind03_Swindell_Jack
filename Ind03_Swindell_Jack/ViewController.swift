@@ -14,26 +14,23 @@ class ViewController: UIViewController {
     @IBOutlet var map: UIImageView!
     @IBOutlet var areaOfState: UILabel!
     
-    
-    var receivedTitle: String?
-    
+    var stateObject: State?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        if let title = receivedTitle {
-            stateName.text = title
+        if let state = stateObject {
+            stateName.text = state.name
+            flag.image = state.flag
+            map.image = state.map
+            areaOfState.text = state.getArea()
         }
-        let state = State(name: receivedTitle ?? "Texas")
-        flag.image = state.flag
-        map.image = state.map
-        areaOfState.text = state.getArea()
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "CellToInfo" {
-            if let title = sender as? String {
-                receivedTitle = title
+            if let state = sender as? State {
+                stateObject = state
             }
         }
     }
