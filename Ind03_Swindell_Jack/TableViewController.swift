@@ -59,7 +59,7 @@ class TableViewController: UITableViewController {
         "Washington:The Evergreen State",
         "West Virginia: The Mountain State",
         "Wisconsin:The Badger State",
-        "Wyoming:The Cowboy State" 
+        "Wyoming:The Cowboy State"
     ]
 
     override func viewDidLoad() {
@@ -130,14 +130,47 @@ class TableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+//        if segue.identifier == "CellToInfo" {
+//            if let title = sender as? String {
+//                print("Sender (Title): \(title)")
+//            } else {
+//                print("Sender is not a String")
+//            }
+//        }
+//        let second = segue.destination as! ViewController
+//        if let title = sender as? String {
+//            second.receivedTitle = title
+//            print(second.receivedTitle ?? "Didn't work")
+//        }
+        if segue.identifier == "CellToInfo" {
+            if let title = sender as? String {
+                if let destinationVC = segue.destination as? ViewController {
+                    destinationVC.receivedTitle = title
+                }
+            }
+        }
     }
-    */
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        if let cell = tableView.cellForRow(at: indexPath) {
+//            if let title = cell.textLabel?.text {
+//                print("Title: \(title)")
+//                performSegue(withIdentifier: "CellToInfo", sender: title)
+//            } else {
+//                print("Text label is nil")
+//            }
+//        } else {
+//            print("Cell is nil")
+//        }
+        if let cell = tableView.cellForRow(at: indexPath), let title = cell.textLabel?.text {
+            performSegue(withIdentifier: "CellToInfo", sender: title)
+        }
+    }
 
 }

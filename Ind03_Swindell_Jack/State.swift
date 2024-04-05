@@ -70,6 +70,6 @@ class State {
         self.flag = UIImage(named: "\(name.components(separatedBy: " ").joined())Flag")!
     }
     func getArea() -> String {
-        return "\(String(describing: areas[self.name])) Sq. Miles"
+        return "\(areas[self.name]!) Sq. Miles"
     }
 }

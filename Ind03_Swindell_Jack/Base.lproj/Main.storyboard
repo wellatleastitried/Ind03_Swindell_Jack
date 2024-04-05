@@ -13,15 +13,48 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ind03_Swindell_Jack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zAD-HA-dFE" userLabel="flag">
+                                <rect key="frame" x="76" y="121" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHi-pc-eCT" userLabel="stateName">
+                                <rect key="frame" x="16" y="291" width="361" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCl-WY-uDR" userLabel="map">
+                                <rect key="frame" x="76" y="357" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJo-SC-nEM" userLabel="areaOfState">
+                                <rect key="frame" x="16" y="553" width="361" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="aqP-2P-V9J">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="jtL-de-XRI"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="areaOfState" destination="KJo-SC-nEM" id="Nss-hz-Eey"/>
+                        <outlet property="flag" destination="zAD-HA-dFE" id="G6F-uh-bHW"/>
+                        <outlet property="map" destination="eCl-WY-uDR" id="W36-7Q-7k5"/>
+                        <outlet property="stateName" destination="RHi-pc-eCT" id="AMQ-Uh-zfD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1645" y="-28"/>
+            <point key="canvasLocation" x="1643.5114503816794" y="-28.169014084507044"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="vX0-RT-iWh">
@@ -62,6 +95,9 @@
                             <outlet property="delegate" destination="XSj-Mk-ioR" id="DuI-eK-swK"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="CellToInfo" id="W2H-Tl-8ZT"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lGw-bd-Hkp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
