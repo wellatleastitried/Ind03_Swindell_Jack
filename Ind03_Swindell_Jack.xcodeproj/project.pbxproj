@@ -16,6 +16,7 @@
 		3A2B5ABD2BBF6A890047EE15 /* Ind03_Swindell_JackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B5ABC2BBF6A890047EE15 /* Ind03_Swindell_JackTests.swift */; };
 		3A2B5AC72BBF6A890047EE15 /* Ind03_Swindell_JackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B5AC62BBF6A890047EE15 /* Ind03_Swindell_JackUITests.swift */; };
 		3A2B5AC92BBF6A890047EE15 /* Ind03_Swindell_JackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B5AC82BBF6A890047EE15 /* Ind03_Swindell_JackUITestsLaunchTests.swift */; };
+		3A2B5AD62BBF77A40047EE15 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B5AD52BBF77A40047EE15 /* State.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3A2B5AC22BBF6A890047EE15 /* Ind03_Swindell_JackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ind03_Swindell_JackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2B5AC62BBF6A890047EE15 /* Ind03_Swindell_JackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind03_Swindell_JackUITests.swift; sourceTree = "<group>"; };
 		3A2B5AC82BBF6A890047EE15 /* Ind03_Swindell_JackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind03_Swindell_JackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A2B5AD52BBF77A40047EE15 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3A2B5AAE2BBF6A880047EE15 /* Assets.xcassets */,
 				3A2B5AB02BBF6A880047EE15 /* LaunchScreen.storyboard */,
 				3A2B5AB32BBF6A880047EE15 /* Info.plist */,
+				3A2B5AD52BBF77A40047EE15 /* State.swift */,
 			);
 			path = Ind03_Swindell_Jack;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				3A2B5AAA2BBF6A870047EE15 /* ViewController.swift in Sources */,
 				3A2B5AA62BBF6A870047EE15 /* AppDelegate.swift in Sources */,
 				3A2B5AA82BBF6A870047EE15 /* SceneDelegate.swift in Sources */,
+				3A2B5AD62BBF77A40047EE15 /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
